@@ -11,7 +11,7 @@ function isit = IsLinearCombination(A, x)
     
     % row has non zero entries
     % need to check 
-    if max(B(row,1:end-1)) == 0 && B(row,end) ~= 0
+    if norm(B(row,1:end-1)) == 0 && B(row,end) ~= 0
         isit = 0;
     else
         isit = 1;

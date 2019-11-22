@@ -2,3 +2,6 @@
 % if m = n we can try solving Ax = b, if A is invertible we can yes 
 % if m > n we can not  
 % if m < n and A has full row rank then yes
+
+q4;
+GetLinIndepVectors([x y z w])

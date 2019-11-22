@@ -4,6 +4,8 @@ H = [
     4,-1i, 1
 ];
 
-[v, ve] = eig(H);
+
+
+[vec, val] = eig(H);
 
 rank(v)

@@ -3,13 +3,13 @@ function A = myRREF(A)
 %   Detailed explanation goes here
     [m,n] = size(A);
 
-    if m ~= n 
-        error("The matrix a should be a square matrix")
-    end
-     
-    if rank(A) ~= m
-        error("The matrix A should be full rank")
-    end
+%     if m ~= n 
+%         error("The matrix a should be a square matrix")
+%     end
+%      
+%     if rank(A) ~= m
+%         error("The matrix A should be full rank")
+%     end
     % convert to upper triangular matrix
     for i=1:min(m,n)
         % Check if pivot element is zero
