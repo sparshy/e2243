@@ -1,6 +1,6 @@
 function sample = UniformRV()
 %UNIFORMRV Summary of this function goes here
 %   Detailed explanation goes here
-    sample = randn()
+    sample = rand();
 end
 

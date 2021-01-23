@@ -1,6 +1,6 @@
 function [V, Q] = GramSchmidt(B)
-%GRAMSCHMIDT Summary of this function goes here
-%   Detailed explanation goes here
+%GRAMSCHMIDT Given a matrix B it calculates V an orthogonal matrix
+%   and Q a orthonormal matrix
     [~,n ] = size(B);
     V = zeros(size(B)); % orthogonal
     Q = zeros(size(B)); % orthonormal
